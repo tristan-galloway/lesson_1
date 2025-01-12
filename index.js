@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 // New route to return a name
 app.get('/name', (req, res) => {
-  res.send('John Doe');
+  res.send('Joan Spraker');
 });
 
 app.listen(port, () => {
